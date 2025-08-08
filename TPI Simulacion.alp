@@ -276,8 +276,8 @@
 							<Bounds><LonMin>-180.0</LonMin><LatMin>-56.869410700999936</LatMin><LonMax>180.0</LonMax><LatMax>71.68715967600008</LatMax></Bounds>
 						</GISShapeFile>
 					</GISShapes>
-					<Latitude>3.1320003134431413</Latitude>
-					<Longitude>103.98815975779942</Longitude>
+					<Latitude>3.6856003208768224</Latitude>
+					<Longitude>102.56051933071566</Longitude>
 					<Scale>4000000</Scale>
 					<BorderColor>-4144960</BorderColor>
 					<FillColor>-1</FillColor>
@@ -379,29 +379,6 @@
 					<Radius>3</Radius>
 					<FillColor>2144175423</FillColor>
 				</GISPoint>
-				<GISRoute TargetId="1754616808894">
-
-					<Id>1754616986208</Id>
-					<Name><![CDATA[gisRoute]]></Name>
-					<X>0</X><Y>0</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-5952982</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>1</LineWidth>
-					<LineStyle>DASHED</LineStyle>
-					<ReadOnly>false</ReadOnly>
-					<Points>
-						<Point><X>5.798814695789622</X><Y>97.49321945326706</Y></Point>
-						<Point><X>5.614031968196106</X><Y>99.00986777005375</Y></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-
-				</GISRoute>
 				<GISPoint>
 					<Id>1754616840333</Id>
 					<Name><![CDATA[gisPoint2]]></Name>
@@ -848,50 +825,6 @@
 					<Radius>3</Radius>
 					<FillColor>2144175423</FillColor>
 				</GISPoint>
-				<GISRoute SourceId="1754617456089" TargetId="1754616808894">
-
-					<Id>1754617458165</Id>
-					<Name><![CDATA[gisRoute15]]></Name>
-					<X>0</X><Y>0</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-5952982</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>1</LineWidth>
-					<LineStyle>DASHED</LineStyle>
-					<ReadOnly>false</ReadOnly>
-					<Points>
-						<Point><X>5.9124299721839275</X><Y>89.13685566881252</Y></Point>
-						<Point><X>6.065336697094742</X><Y>95.33061875247279</Y></Point>
-						<Point><X>5.614031968196106</X><Y>99.00986777005375</Y></Point>
-					</Points>
-					<Bidirectional>true</Bidirectional>
-
-				</GISRoute>
-				<GISPoint>
-					<Id>1754617456089</Id>
-					<Name><![CDATA[gisPoint14]]></Name>
-					<X>20</X><Y>277</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-5952982</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>1</LineWidth>
-					<LineStyle>SOLID</LineStyle>
-					<ReadOnly>false</ReadOnly>
-					<Latitude>5.9124299721839275</Latitude>	
-					<Longitude>89.13685566881252</Longitude>
-					<Radius>3</Radius>
-					<FillColor>2144175423</FillColor>
-				</GISPoint>
 				<GISRoute SourceId="1754616921363" TargetId="1754616936913">
 
 					<Id>1754618053775</Id>
@@ -1086,6 +1019,135 @@
 					<ReadOnly>false</ReadOnly>
 					<Latitude>-4.868260520547762</Latitude>	
 					<Longitude>111.7224017715263</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
+				<GISRoute SourceId="1754616808894" TargetId="1754658927388">
+
+					<Id>1754658957432</Id>
+					<Name><![CDATA[gisRoute]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>DASHED</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Points>
+						<Point><X>5.614031968196106</X><Y>99.00986777005375</Y></Point>
+						<Point><X>6.054416212975644</X><Y>94.84027917501771</Y></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+
+				</GISRoute>
+				<GISPoint>
+					<Id>1754658927388</Id>
+					<Name><![CDATA[gisPoint16]]></Name>
+					<X>459</X><Y>196</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Latitude>6.054416212975644</Latitude>	
+					<Longitude>94.84027917501771</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
+				<GISRoute SourceId="1754658927388" TargetId="1754617456089">
+
+					<Id>1754658965734</Id>
+					<Name><![CDATA[gisRoute15]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>DASHED</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Points>
+						<Point><X>6.054416212975644</X><Y>94.84027917501771</Y></Point>
+						<Point><X>5.9124299721839275</X><Y>89.13685566881252</Y></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+
+				</GISRoute>
+				<GISPoint>
+					<Id>1754617456089</Id>
+					<Name><![CDATA[gisPoint14]]></Name>
+					<X>20</X><Y>277</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Latitude>5.9124299721839275</Latitude>	
+					<Longitude>89.13685566881252</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
+				<GISRoute SourceId="1754658927388" TargetId="1754658970631">
+
+					<Id>1754659013721</Id>
+					<Name><![CDATA[gisRoute17]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>DASHED</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Points>
+						<Point><X>6.054416212975644</X><Y>94.84027917501771</Y></Point>
+						<Point><X>3.518458019304833</X><Y>91.22725070954937</Y></Point>
+					</Points>
+					<Bidirectional>true</Bidirectional>
+
+				</GISRoute>
+				<GISPoint>
+					<Id>1754658970631</Id>
+					<Name><![CDATA[gisPoint17]]></Name>
+					<X>281</X><Y>481</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>false</ReadOnly>
+					<Latitude>3.518458019304833</Latitude>	
+					<Longitude>91.22725070954937</Longitude>
 					<Radius>3</Radius>
 					<FillColor>2144175423</FillColor>
 				</GISPoint>
