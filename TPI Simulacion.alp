@@ -473,7 +473,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi_simulacion]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[moveToPort]]></ItemName>
+						<ItemName><![CDATA[moveToMalacca]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -497,7 +497,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi_simulacion]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[moveToPort]]></ItemName>
+						<ItemName><![CDATA[moveToMalacca]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -542,7 +542,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi_simulacion]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[moveToPort1]]></ItemName>
+						<ItemName><![CDATA[moveToMalacca1]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -566,7 +566,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[tpi_simulacion]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[moveToPort1]]></ItemName>
+						<ItemName><![CDATA[moveToMalacca1]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -649,7 +649,7 @@
 					<RowCode Class="CodeValue">
 						<Code><![CDATA[0]]></Code>
 					</RowCode>
-					<NodeCode><![CDATA[gisPointPort]]></NodeCode>
+					<NodeCode><![CDATA[gisPointMalacca]]></NodeCode>
 					<LocationNameCode Class="CodeValue">
 						<Code><![CDATA[""]]></Code>
 					</LocationNameCode>
@@ -2186,7 +2186,7 @@ destinations.add(currentSource);]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1755093137245</Id>
-					<Name><![CDATA[moveToPort]]></Name>
+					<Name><![CDATA[moveToMalacca]]></Name>
 					<X>600</X><Y>725</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -2213,7 +2213,7 @@ destinations.add(currentSource);]]></Code>
 						<Parameter>
 							<Name><![CDATA[destinationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[gisPointPort]]></Code>
+								<Code><![CDATA[gisPointMalacca]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2328,7 +2328,7 @@ destinations.add(currentSource);]]></Code>
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1755093186955</Id>
-					<Name><![CDATA[moveToPort1]]></Name>
+					<Name><![CDATA[moveToMalacca1]]></Name>
 					<X>600</X><Y>970</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -2355,7 +2355,7 @@ destinations.add(currentSource);]]></Code>
 						<Parameter>
 							<Name><![CDATA[destinationNode]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[gisPointPort]]></Code>
+								<Code><![CDATA[gisPointMalacca]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2514,9 +2514,9 @@ destinations.add(currentSource);]]></Code>
 							<Bounds><LonMin>-180.0</LonMin><LatMin>-56.869410700999936</LatMin><LonMax>180.0</LonMax><LatMax>71.68715967600008</LatMax></Bounds>
 						</GISShapeFile>
 					</GISShapes>
-					<Latitude>2.5095884251769514</Latitude>
-					<Longitude>102.33880743496792</Longitude>
-					<Scale>4000000</Scale>
+					<Latitude>2.6381384014374865</Latitude>
+					<Longitude>101.8173617689804</Longitude>
+					<Scale>2000000</Scale>
 					<BorderColor>-4144960</BorderColor>
 					<FillColor>-1</FillColor>
 					<ShowTiles>true</ShowTiles>
@@ -3838,7 +3838,7 @@ destinations.add(currentSource);]]></Code>
 					<LineStyle>DASHED</LineStyle>
 					<ReadOnly>false</ReadOnly>
 					<Points>
-						<Point><X>2.3499462248998464</X><Y>101.66073314134908</Y></Point>
+						<Point><X>1.9864335083930342</X><Y>102.15354363492933</Y></Point>
 						<Point><X>1.8977511432240872</X><Y>102.27269670134328</Y></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
@@ -3859,8 +3859,8 @@ destinations.add(currentSource);]]></Code>
 					<LineWidth>1</LineWidth>
 					<LineStyle>SOLID</LineStyle>
 					<ReadOnly>false</ReadOnly>
-					<Latitude>2.3499462248998464</Latitude>	
-					<Longitude>101.66073314134908</Longitude>
+					<Latitude>1.9864335083930342</Latitude>	
+					<Longitude>102.15354363492933</Longitude>
 					<Radius>3</Radius>
 					<FillColor>2144175423</FillColor>
 				</GISPoint>
@@ -3882,7 +3882,7 @@ destinations.add(currentSource);]]></Code>
 					<ReadOnly>false</ReadOnly>
 					<Points>
 						<Point><X>2.525990440722686</X><Y>101.42160336981193</Y></Point>
-						<Point><X>2.3499462248998464</X><Y>101.66073314134908</Y></Point>
+						<Point><X>1.9864335083930342</X><Y>102.15354363492933</Y></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 
@@ -4010,7 +4010,7 @@ destinations.add(currentSource);]]></Code>
 					<LineStyle>DASHED</LineStyle>
 					<ReadOnly>false</ReadOnly>
 					<Points>
-						<Point><X>2.3984443308727905</X><Y>101.6578778604949</Y></Point>
+						<Point><X>2.0335715294225607</X><Y>102.1438246981757</Y></Point>
 						<Point><X>1.929306353678542</X><Y>102.28614946690512</Y></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
@@ -4031,8 +4031,8 @@ destinations.add(currentSource);]]></Code>
 					<LineWidth>1</LineWidth>
 					<LineStyle>SOLID</LineStyle>
 					<ReadOnly>false</ReadOnly>
-					<Latitude>2.3984443308727905</Latitude>	
-					<Longitude>101.6578778604949</Longitude>
+					<Latitude>2.0335715294225607</Latitude>	
+					<Longitude>102.1438246981757</Longitude>
 					<Radius>3</Radius>
 					<FillColor>2144175423</FillColor>
 				</GISPoint>
@@ -4054,7 +4054,7 @@ destinations.add(currentSource);]]></Code>
 					<ReadOnly>false</ReadOnly>
 					<Points>
 						<Point><X>2.559177830499799</X><Y>101.44054706009352</Y></Point>
-						<Point><X>2.3984443308727905</X><Y>101.6578778604949</Y></Point>
+						<Point><X>2.0335715294225607</X><Y>102.1438246981757</Y></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 
@@ -4165,29 +4165,9 @@ destinations.add(currentSource);]]></Code>
 					<Radius>3</Radius>
 					<FillColor>2144175423</FillColor>
 				</GISPoint>
-				<GISPoint>
-					<Id>1754585374172</Id>
-					<Name><![CDATA[gisPointPort]]></Name>
-					<X>644</X><Y>328</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-5952982</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineWidth>1</LineWidth>
-					<LineStyle>SOLID</LineStyle>
-					<ReadOnly>false</ReadOnly>
-					<Latitude>2.527390653109857</Latitude>	
-					<Longitude>101.79390359686424</Longitude>
-					<Radius>3</Radius>
-					<FillColor>2144175423</FillColor>
-				</GISPoint>
-				<GISRoute SourceId="1755040582441" TargetId="1754585374172">
+				<GISRoute SourceId="1755040586136" TargetId="1755268850209">
 
-					<Id>1755040855712</Id>
+					<Id>1755269138722</Id>
 					<Name><![CDATA[gisRoute36]]></Name>
 					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -4202,15 +4182,35 @@ destinations.add(currentSource);]]></Code>
 					<LineStyle>DASHED</LineStyle>
 					<ReadOnly>false</ReadOnly>
 					<Points>
-						<Point><X>2.3499462248998464</X><Y>101.66073314134908</Y></Point>
-						<Point><X>2.527390653109857</X><Y>101.79390359686424</Y></Point>
+						<Point><X>2.0335715294225607</X><Y>102.1438246981757</Y></Point>
+						<Point><X>2.1699017483696528</X><Y>102.2212192821024</Y></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 
 				</GISRoute>
-				<GISRoute SourceId="1755040586136" TargetId="1754585374172">
+				<GISPoint>
+					<Id>1755268850209</Id>
+					<Name><![CDATA[gisPointMalacca]]></Name>
+					<X>463</X><Y>297</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>true</ReadOnly>
+					<Latitude>2.1699017483696528</Latitude>	
+					<Longitude>102.2212192821024</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
+				<GISRoute SourceId="1755040582441" TargetId="1755268850209">
 
-					<Id>1755040860612</Id>
+					<Id>1755269142437</Id>
 					<Name><![CDATA[gisRoute37]]></Name>
 					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -4225,8 +4225,8 @@ destinations.add(currentSource);]]></Code>
 					<LineStyle>DASHED</LineStyle>
 					<ReadOnly>false</ReadOnly>
 					<Points>
-						<Point><X>2.3984443308727905</X><Y>101.6578778604949</Y></Point>
-						<Point><X>2.527390653109857</X><Y>101.79390359686424</Y></Point>
+						<Point><X>1.9864335083930342</X><Y>102.15354363492933</Y></Point>
+						<Point><X>2.1699017483696528</X><Y>102.2212192821024</Y></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
 
@@ -4234,6 +4234,106 @@ destinations.add(currentSource);]]></Code>
 			</Presentation>
 
 						</GISNetwork>
+				<GISPoint>
+					<Id>1755268654147</Id>
+					<Name><![CDATA[gisPointSingapore]]></Name>
+					<X>441</X><Y>292</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>true</ReadOnly>
+					<Latitude>1.2609393480405955</Latitude>	
+					<Longitude>103.8425795332918</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
+				<GISPoint>
+					<Id>1755268712116</Id>
+					<Name><![CDATA[gisPointTanjungPelepas]]></Name>
+					<X>401</X><Y>354</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>true</ReadOnly>
+					<Latitude>1.3303268877876506</Latitude>	
+					<Longitude>103.5514781592848</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
+				<GISPoint>
+					<Id>1755268786626</Id>
+					<Name><![CDATA[gisPointPenang]]></Name>
+					<X>399</X><Y>195</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>true</ReadOnly>
+					<Latitude>5.453701499020045</Latitude>	
+					<Longitude>100.3548539699246</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
+				<GISPoint>
+					<Id>1755268878462</Id>
+					<Name><![CDATA[gisPointDumai]]></Name>
+					<X>406</X><Y>301</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>true</ReadOnly>
+					<Latitude>1.6913663044065068</Latitude>	
+					<Longitude>101.49778995030097</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
+				<GISPoint>
+					<Id>1755268943906</Id>
+					<Name><![CDATA[gisPointKlang]]></Name>
+					<X>503</X><Y>305</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-5952982</LineColor>
+					<LineMaterial>null</LineMaterial>
+					<LineWidth>1</LineWidth>
+					<LineStyle>SOLID</LineStyle>
+					<ReadOnly>true</ReadOnly>
+					<Latitude>2.87616849639456</Latitude>	
+					<Longitude>101.25673835511296</Longitude>
+					<Radius>3</Radius>
+					<FillColor>2144175423</FillColor>
+				</GISPoint>
 			</Presentation>
 
 				</GISMap>
