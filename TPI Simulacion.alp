@@ -113,7 +113,7 @@
 					<Id>1754954432477</Id>
 					<Name><![CDATA[currentSource]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>280</X><Y>1120</Y>
+					<X>280</X><Y>1540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -242,6 +242,50 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1760219403418</Id>
+					<Name><![CDATA[probAtaque]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>170</X><Y>1210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0.0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1760219611764</Id>
+					<Name><![CDATA[horaActual]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>270</X><Y>1210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1760223499162</Id>
+					<Name><![CDATA[contadorAccidentes]]></Name>
+					<X>170</X><Y>1290</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="Parameter">
 					<Id>1755372934360</Id>
 					<Name><![CDATA[probSingapore]]></Name>
@@ -365,7 +409,7 @@
 				<Variable Class="Parameter">
 					<Id>1759950804562</Id>
 					<Name><![CDATA[tasaAtaques]]></Name>
-					<X>60</X><Y>880</Y>
+					<X>60</X><Y>1180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -375,7 +419,9 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.0184]]></Code>
+							<Code><![CDATA[0.0184
+//tasa de ataques por hora
+//sin tener en cuenta las horas pico]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1759950804560</Id>
@@ -389,7 +435,7 @@
 				<Variable Class="Parameter">
 					<Id>1759950833721</Id>
 					<Name><![CDATA[modPatrulla]]></Name>
-					<X>60</X><Y>910</Y>
+					<X>60</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -413,7 +459,7 @@
 				<Variable Class="Parameter">
 					<Id>1759950865381</Id>
 					<Name><![CDATA[modDefensa]]></Name>
-					<X>60</X><Y>940</Y>
+					<X>60</X><Y>1030</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -437,7 +483,7 @@
 				<Variable Class="Parameter">
 					<Id>1759950895061</Id>
 					<Name><![CDATA[cantPatrullas]]></Name>
-					<X>60</X><Y>970</Y>
+					<X>60</X><Y>1060</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -461,7 +507,7 @@
 				<Variable Class="Parameter">
 					<Id>1759951044274</Id>
 					<Name><![CDATA[horaInicioPico]]></Name>
-					<X>60</X><Y>1000</Y>
+					<X>60</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -471,7 +517,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[1]]></Code>
+							<Code><![CDATA[20]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1759951044272</Id>
@@ -485,15 +531,18 @@
 				<Variable Class="Parameter">
 					<Id>1759951058577</Id>
 					<Name><![CDATA[horaFinPico]]></Name>
-					<X>60</X><Y>1030</Y>
+					<X>60</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[double]]></Type>
+						<Type><![CDATA[int]]></Type>
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[4]]></Code>
+						</DefaultValue>
 						<ParameterEditor>
 							<Id>1759951058575</Id>
 							<EditorContolType>TEXT_BOX</EditorContolType>
@@ -507,7 +556,7 @@
 					<Id>1754951889490</Id>
 					<Name><![CDATA[destinations]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>280</X><Y>1080</Y>
+					<X>280</X><Y>1500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -594,7 +643,7 @@
 					<Id>1755024715520</Id>
 					<Name><![CDATA[connector4]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>130</X><Y>1100</Y>
+					<X>130</X><Y>1520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -628,7 +677,7 @@
 					<Id>1755024715522</Id>
 					<Name><![CDATA[connector5]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>170</X><Y>1100</Y>
+					<X>170</X><Y>1520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1553,13 +1602,92 @@
 					</Points>
 				</Connector>
 			</Connectors>
+			<Events>
+				<Event>
+					<Id>1760219445250</Id>
+					<Name><![CDATA[ActualizarProbAtaque]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>170</X><Y>1180</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="rate" Mode="occuresOnce">
+						<Timeout Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</Timeout>
+						<Rate Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
+						</Rate>
+						<Id>1760219445248</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1760256000000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+					</Properties>
+					<Action><![CDATA[probAtaque = f_probAtaque();
+horaActual = (int) time() % 24;]]></Action>
+				</Event>
+				<Event>
+					<Id>1760221276726</Id>
+					<Name><![CDATA[eventAtaque]]></Name>
+					<X>170</X><Y>1260</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="rate" Mode="occuresOnce">
+						<Timeout Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</Timeout>
+						<Rate Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
+						</Rate>
+						<Id>1760221276724</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1760256000000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+					</Properties>
+					<Action><![CDATA[double hora = (int) time() % 24;
+boolean enPico = (hora >= horaInicioPico) || (hora <= horaFinPico);
+double probActual = enPico ? 0.0403 : 0.00284;
+
+if (uniform(0,1) < probActual) {
+    if (!shipses.isEmpty()) {
+        Ships victima = shipses.get(uniform_discr(0, shipses.size() - 1));
+        victima.accidentar();
+        trace("Accidente con " + victima + " a la hora " + hora + "\n");
+        contadorAccidentes++;
+    }
+}]]></Action>
+				</Event>
+			</Events>
 			<Functions>
 				<Function AccessType="default" StaticFunction="false">
 					<ReturnModificator>RETURNS_VALUE</ReturnModificator>
 					<ReturnType><![CDATA[int]]></ReturnType>
 					<Id>1759950853089</Id>
 					<Name><![CDATA[detCategoria]]></Name>
-					<X>180</X><Y>910</Y>
+					<X>170</X><Y>1030</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1596,20 +1724,46 @@ if (r < pFallidoReal) {
 					<ReturnModificator>RETURNS_VALUE</ReturnModificator>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1759950859933</Id>
-					<Name><![CDATA[probAtaque]]></Name>
-					<X>180</X><Y>940</Y>
+					<Name><![CDATA[f_probAtaque]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>170</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
-					<Body><![CDATA[double hora = time() % 24;
+					<Body><![CDATA[double hora = (int) time() % 24;
 double probBase = tasaAtaques;
 
-double factorPico = (hora >= horaInicioPico || hora <= horaFinPico) ? 10.11 : 1.0;
+//double horasPico = 10.0;
+//double horasNoPico = 14.0;
+//double fraccionPico = 0.91;
 
-double probFinal = probBase * factorPico;
+//double k = (fraccionPico / (1.0 - fraccionPico)) * (horasNoPico / horasPico); // ≈ 14.1556
 
-Math.min(probFinal, 1.0);]]></Body>
+// La tasa diaria es de 0.442 aprox
+// double probDiaria = probBase * 24;
+// De estos 0.442, un 91% ocurre entre las 20 y las 06, en 10 horas
+// El 9% restante se da en 14 horas
+// A partir de esto se calcula que la tasa diaria en horario pico es 0.403
+// En horario no pico es 0.0397
+// Entonces por hora da 0.0403 pico y 0.00284 no pico
+// Estas tasas se pasan al proceso de poisson para tener las probabilidades 
+// de que ocurran al menos un evento en una hora
+
+//double lambdaNoPico = (probBase * 24.0) / (k * horasPico + horasNoPico);
+//double lambdaPico = k * lambdaNoPico;
+
+//double probPico = 1.0 - Math.exp(-lambdaPico);
+//double probNoPico = 1.0 - Math.exp(-lambdaNoPico); 
+
+double probPico = 0.0403;
+double probNoPico = 0.00284;
+
+boolean enPico = (hora >= horaInicioPico) || (hora <= horaFinPico);
+
+double probActual = enPico ? probPico : probNoPico;
+
+return probActual;]]></Body>
 				</Function>
 			</Functions>
 			<AgentLinks>
@@ -1881,9 +2035,15 @@ Math.min(probFinal, 1.0);]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[addToCustomPopulation]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[population]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[shipses]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pushProtocol]]></Name>
@@ -2320,9 +2480,15 @@ Math.min(probFinal, 1.0);]]></Body>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[addToCustomPopulation]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[population]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[shipses]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[pushProtocol]]></Name>
@@ -2566,7 +2732,7 @@ Math.min(probFinal, 1.0);]]></Body>
 					<Id>1755024715419</Id>
 					<Name><![CDATA[sourceLane3]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>50</X><Y>1090</Y>
+					<X>50</X><Y>1510</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2816,7 +2982,7 @@ destinations.remove(currentSource);
 					<Id>1755024715480</Id>
 					<Name><![CDATA[sink2]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>230</X><Y>1090</Y>
+					<X>230</X><Y>1510</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2869,7 +3035,7 @@ destinations.remove(currentSource);
 					<Id>1755024715487</Id>
 					<Name><![CDATA[moveTo2]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>130</X><Y>1080</Y>
+					<X>130</X><Y>1500</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3112,7 +3278,7 @@ destinations.add(currentSource);]]></Code>
 						<Parameter>
 							<Name><![CDATA[probability]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.9]]></Code>
+								<Code><![CDATA[0.8]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6526,6 +6692,27 @@ destinations.add(currentSource);]]></Code>
 			</Presentation>
 
 				</GISMap>
+				<Text>
+					<Id>1760224051114</Id>
+					<Name><![CDATA[text]]></Name>
+					<X>160</X><Y>1000</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Esto no esta aplicado todavia]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
 			</Presentation>
 
 				</Level>
@@ -6893,20 +7080,20 @@ _ps140.setFillColor(lime);]]></EntryAction>
 						<Point><X>0</X><Y>50</Y></Point>
 					</Points>
 					<IconOffset>20.0</IconOffset>
-					<Properties Source="1754949765958" Target="1755041091915" Trigger="rate">
+					<Properties Source="1754949765958" Target="1755041091915" Trigger="message">
 						<Timeout Class="CodeUnitValue">
 							<Code><![CDATA[1]]></Code>
 							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
 						</Timeout>
 						<Condition><![CDATA[true]]></Condition>
 						<Rate Class="CodeUnitValue">
-							<Code><![CDATA[0.01]]></Code>
-							<Unit Class="RateUnits"><![CDATA[PER_DAY]]></Unit>
+							<Code><![CDATA[probAtaque]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
 						</Rate>
-						<MessageType><![CDATA[Object]]></MessageType>
+						<MessageType><![CDATA[String]]></MessageType>
 						<DefaultTransition>true</DefaultTransition>
-						<FilterType><![CDATA[unconditionally]]></FilterType>
-						<EqualsExpression><![CDATA["text"]]></EqualsExpression>
+						<FilterType><![CDATA[equalsTo]]></FilterType>
+						<EqualsExpression><![CDATA["Accidente"]]></EqualsExpression>
 						<SatisfiesExpression><![CDATA[true]]></SatisfiesExpression>
 					</Properties>	
 				</StatechartElement>
@@ -6941,6 +7128,20 @@ _ps140.setFillColor(lime);]]></EntryAction>
 					</Properties>	
 				</StatechartElement>
 			</StatechartElements>
+			<Functions>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1760221766317</Id>
+					<Name><![CDATA[accidentar]]></Name>
+					<X>40</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[statechart.fireEvent("Accidente");]]></Body>
+				</Function>
+			</Functions>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1754949749331</Id>
@@ -6970,7 +7171,7 @@ _ps140.setFillColor(lime);]]></EntryAction>
 
 			<ContainerLinks>
 				<ContainerLink>
-					<Id>1754949749481</Id>
+					<Id>1760223033891</Id>
 					<Name><![CDATA[main]]></Name>
 					<X>50</X><Y>-100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -9306,11 +9507,11 @@ _ps140.setFillColor(lime);]]></EntryAction>
 		<Name><![CDATA[RunConfiguration]]></Name>
 		<MaximumMemory>512</MaximumMemory>
 		<ModelTimeProperties>
-			<StopOption><![CDATA[Stop at specified time]]></StopOption>
-			<InitialDate><![CDATA[1754524800000]]></InitialDate>	
+			<StopOption><![CDATA[Stop at specified date]]></StopOption>
+			<InitialDate><![CDATA[1735689600000]]></InitialDate>	
 			<InitialTime><![CDATA[0.0]]></InitialTime>	
-			<FinalDate><![CDATA[1757203200000]]></FinalDate>	
-			<FinalTime><![CDATA[100.0]]></FinalTime>	
+			<FinalDate><![CDATA[1767225599000]]></FinalDate>	
+			<FinalTime><![CDATA[8759.999722222223]]></FinalTime>	
 		</ModelTimeProperties>
 		<AnimationProperties>
 			<StopNever>true</StopNever>
@@ -9407,11 +9608,11 @@ _ps140.setFillColor(lime);]]></EntryAction>
 				<RealTimeScale>1.0</RealTimeScale>
 			</PresentationProperties>
 			<ModelTimeProperties>
-				<StopOption><![CDATA[Never]]></StopOption>
-				<InitialDate><![CDATA[1754524800000]]></InitialDate>
+				<StopOption><![CDATA[Stop at specified date]]></StopOption>
+				<InitialDate><![CDATA[1735689600000]]></InitialDate>
 				<InitialTime><![CDATA[0.0]]></InitialTime>
-				<FinalDate><![CDATA[1757203200000]]></FinalDate>
-				<FinalTime><![CDATA[100.0]]></FinalTime>
+				<FinalDate><![CDATA[1767225600000]]></FinalDate>
+				<FinalTime><![CDATA[8760.0]]></FinalTime>
 			</ModelTimeProperties>
 			<BypassInitialScreen>true</BypassInitialScreen>
 		</SimulationExperiment>	
