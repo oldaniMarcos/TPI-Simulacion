@@ -113,7 +113,7 @@
 					<Id>1754954432477</Id>
 					<Name><![CDATA[currentSource]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>280</X><Y>1540</Y>
+					<X>290</X><Y>1720</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -155,7 +155,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1755374153787</Id>
 					<Name><![CDATA[counterSingapore]]></Name>
-					<X>180</X><Y>730</Y>
+					<X>180</X><Y>770</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -170,7 +170,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1755374156094</Id>
 					<Name><![CDATA[counterKlang]]></Name>
-					<X>180</X><Y>760</Y>
+					<X>180</X><Y>800</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -185,7 +185,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1755374158176</Id>
 					<Name><![CDATA[counterTanjung]]></Name>
-					<X>180</X><Y>790</Y>
+					<X>180</X><Y>830</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -200,7 +200,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1755374160347</Id>
 					<Name><![CDATA[counterDumai]]></Name>
-					<X>180</X><Y>820</Y>
+					<X>180</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -215,7 +215,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1755374162639</Id>
 					<Name><![CDATA[counterMalacca]]></Name>
-					<X>180</X><Y>850</Y>
+					<X>180</X><Y>890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -230,7 +230,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1759950789154</Id>
 					<Name><![CDATA[demoraAcumulada]]></Name>
-					<X>180</X><Y>880</Y>
+					<X>180</X><Y>920</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -246,7 +246,7 @@
 					<Id>1760219403418</Id>
 					<Name><![CDATA[probAtaque]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>170</X><Y>1210</Y>
+					<X>170</X><Y>1380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -262,7 +262,7 @@
 					<Id>1760219611764</Id>
 					<Name><![CDATA[horaActual]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>270</X><Y>1210</Y>
+					<X>270</X><Y>1380</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -274,7 +274,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1760223499162</Id>
 					<Name><![CDATA[contadorAccidentes]]></Name>
-					<X>170</X><Y>1290</Y>
+					<X>170</X><Y>1460</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -286,10 +286,25 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1760309722622</Id>
+					<Name><![CDATA[tasaPico]]></Name>
+					<X>60</X><Y>1560</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0.0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="Parameter">
 					<Id>1755372934360</Id>
 					<Name><![CDATA[probSingapore]]></Name>
-					<X>60</X><Y>730</Y>
+					<X>60</X><Y>770</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -313,7 +328,7 @@
 				<Variable Class="Parameter">
 					<Id>1755372937514</Id>
 					<Name><![CDATA[probDumai]]></Name>
-					<X>60</X><Y>820</Y>
+					<X>60</X><Y>860</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -337,7 +352,7 @@
 				<Variable Class="Parameter">
 					<Id>1755372939601</Id>
 					<Name><![CDATA[probTanjung]]></Name>
-					<X>60</X><Y>790</Y>
+					<X>60</X><Y>830</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -361,7 +376,7 @@
 				<Variable Class="Parameter">
 					<Id>1755372941512</Id>
 					<Name><![CDATA[probMalacca]]></Name>
-					<X>60</X><Y>850</Y>
+					<X>60</X><Y>890</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -385,7 +400,7 @@
 				<Variable Class="Parameter">
 					<Id>1755372943918</Id>
 					<Name><![CDATA[probKlang]]></Name>
-					<X>60</X><Y>760</Y>
+					<X>60</X><Y>800</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -409,7 +424,7 @@
 				<Variable Class="Parameter">
 					<Id>1759950804562</Id>
 					<Name><![CDATA[tasaAtaques]]></Name>
-					<X>60</X><Y>1180</Y>
+					<X>60</X><Y>1350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -507,7 +522,7 @@
 				<Variable Class="Parameter">
 					<Id>1759951044274</Id>
 					<Name><![CDATA[horaInicioPico]]></Name>
-					<X>60</X><Y>1120</Y>
+					<X>60</X><Y>1290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -531,7 +546,7 @@
 				<Variable Class="Parameter">
 					<Id>1759951058577</Id>
 					<Name><![CDATA[horaFinPico]]></Name>
-					<X>60</X><Y>1150</Y>
+					<X>60</X><Y>1320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -541,10 +556,254 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[4]]></Code>
+							<Code><![CDATA[6]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1759951058575</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760308887393</Id>
+					<Name><![CDATA[fraccionPico]]></Name>
+					<X>60</X><Y>1380</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0.91 //El porcentaje de eventos que ocurre en la hora pico]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760308887391</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760308935272</Id>
+					<Name><![CDATA[horasPico]]></Name>
+					<X>60</X><Y>1410</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[(24 - horaInicioPico) + horaFinPico]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760308935270</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760308945512</Id>
+					<Name><![CDATA[horasNoPico]]></Name>
+					<X>60</X><Y>1440</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[24 - horasPico]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760308945510</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760309241141</Id>
+					<Name><![CDATA[k]]></Name>
+					<X>60</X><Y>1470</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[// Es la proporcion entre cuantos eventos ocurren 
+// en la hora pico versus las no pico
+// Seria: Los eventos en hora pico son X veces 
+// mas comunes que en horas no pico
+(fraccionPico / (1.0 - fraccionPico)) * (horasNoPico / horasPico)]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760309241139</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760309375582</Id>
+					<Name><![CDATA[tasaNoPico]]></Name>
+					<X>60</X><Y>1500</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[(tasaAtaques * 24.0) / (k * horasPico + horasNoPico)]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760309375580</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760310237418</Id>
+					<Name><![CDATA[pFallido]]></Name>
+					<X>60</X><Y>1090</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0.025]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760310237416</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760310245515</Id>
+					<Name><![CDATA[pCAT2]]></Name>
+					<X>60</X><Y>1150</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0.0875]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760310245513</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760310255590</Id>
+					<Name><![CDATA[pCAT3]]></Name>
+					<X>60</X><Y>1180</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0.475]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760310255588</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760310261958</Id>
+					<Name><![CDATA[pCAT4]]></Name>
+					<X>60</X><Y>1210</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0.4125]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760310261956</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
+				<Variable Class="Parameter">
+					<Id>1760310341197</Id>
+					<Name><![CDATA[pCAT1]]></Name>
+					<X>60</X><Y>1120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0.0]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1760310341195</Id>
 							<EditorContolType>TEXT_BOX</EditorContolType>
 							<MinSliderValue><![CDATA[0]]></MinSliderValue>
 							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
@@ -556,7 +815,7 @@
 					<Id>1754951889490</Id>
 					<Name><![CDATA[destinations]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>280</X><Y>1500</Y>
+					<X>290</X><Y>1680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -576,7 +835,7 @@
 				<Connector>
 					<Id>1754951822824</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>720</X><Y>690</Y>
+					<X>900</X><Y>730</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -609,7 +868,7 @@
 				<Connector>
 					<Id>1755024626242</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>720</X><Y>1050</Y>
+					<X>900</X><Y>1090</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -643,7 +902,7 @@
 					<Id>1755024715520</Id>
 					<Name><![CDATA[connector4]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>130</X><Y>1520</Y>
+					<X>140</X><Y>1700</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -677,7 +936,7 @@
 					<Id>1755024715522</Id>
 					<Name><![CDATA[connector5]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>170</X><Y>1520</Y>
+					<X>180</X><Y>1700</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -710,7 +969,7 @@
 				<Connector>
 					<Id>1755093100592</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>680</X><Y>690</Y>
+					<X>860</X><Y>730</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -743,7 +1002,7 @@
 				<Connector>
 					<Id>1755093100594</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>180</X><Y>40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -776,7 +1035,7 @@
 				<Connector>
 					<Id>1755093107526</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>680</X><Y>1050</Y>
+					<X>860</X><Y>1090</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -809,7 +1068,7 @@
 				<Connector>
 					<Id>1755093107528</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>0</X><Y>230</Y>
+					<X>180</X><Y>270</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -842,7 +1101,7 @@
 				<Connector>
 					<Id>1755372842282</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>530</X><Y>740</Y>
+					<X>710</X><Y>780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -875,7 +1134,7 @@
 				<Connector>
 					<Id>1755373263388</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>680</X><Y>740</Y>
+					<X>860</X><Y>780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -908,7 +1167,7 @@
 				<Connector>
 					<Id>1755373275518</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>680</X><Y>940</Y>
+					<X>860</X><Y>980</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -943,7 +1202,7 @@
 				<Connector>
 					<Id>1755373476947</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>550</X><Y>760</Y>
+					<X>730</X><Y>800</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -978,7 +1237,7 @@
 				<Connector>
 					<Id>1755373479575</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>550</X><Y>780</Y>
+					<X>730</X><Y>820</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1013,7 +1272,7 @@
 				<Connector>
 					<Id>1755373482251</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>550</X><Y>800</Y>
+					<X>730</X><Y>840</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1048,7 +1307,7 @@
 				<Connector>
 					<Id>1755373589786</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>720</X><Y>740</Y>
+					<X>900</X><Y>780</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1083,7 +1342,7 @@
 				<Connector>
 					<Id>1755373593584</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>720</X><Y>790</Y>
+					<X>900</X><Y>830</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1118,7 +1377,7 @@
 				<Connector>
 					<Id>1755373598140</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>720</X><Y>840</Y>
+					<X>900</X><Y>880</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1153,7 +1412,7 @@
 				<Connector>
 					<Id>1755373601655</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>720</X><Y>890</Y>
+					<X>900</X><Y>930</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1188,7 +1447,7 @@
 				<Connector>
 					<Id>1755373604669</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>720</X><Y>940</Y>
+					<X>900</X><Y>980</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1223,7 +1482,7 @@
 				<Connector>
 					<Id>1755374520622</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>680</X><Y>1100</Y>
+					<X>860</X><Y>1140</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1256,7 +1515,7 @@
 				<Connector>
 					<Id>1755374520624</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>680</X><Y>1300</Y>
+					<X>860</X><Y>1340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1291,7 +1550,7 @@
 				<Connector>
 					<Id>1755374520626</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>550</X><Y>1120</Y>
+					<X>730</X><Y>1160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1326,7 +1585,7 @@
 				<Connector>
 					<Id>1755374520628</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>550</X><Y>1140</Y>
+					<X>730</X><Y>1180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1361,7 +1620,7 @@
 				<Connector>
 					<Id>1755374520630</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>550</X><Y>1160</Y>
+					<X>730</X><Y>1200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1396,7 +1655,7 @@
 				<Connector>
 					<Id>1755374532108</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>530</X><Y>1060</Y>
+					<X>710</X><Y>1100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1429,7 +1688,7 @@
 				<Connector>
 					<Id>1755374550922</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>720</X><Y>1100</Y>
+					<X>900</X><Y>1140</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1464,7 +1723,7 @@
 				<Connector>
 					<Id>1755374550924</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>720</X><Y>1150</Y>
+					<X>900</X><Y>1190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1499,7 +1758,7 @@
 				<Connector>
 					<Id>1755374550926</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>720</X><Y>1200</Y>
+					<X>900</X><Y>1240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1534,7 +1793,7 @@
 				<Connector>
 					<Id>1755374550928</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>720</X><Y>1250</Y>
+					<X>900</X><Y>1290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1569,7 +1828,7 @@
 				<Connector>
 					<Id>1755374550930</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>720</X><Y>1300</Y>
+					<X>900</X><Y>1340</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1607,7 +1866,7 @@
 					<Id>1760219445250</Id>
 					<Name><![CDATA[ActualizarProbAtaque]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>170</X><Y>1180</Y>
+					<X>170</X><Y>1350</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1640,7 +1899,7 @@ horaActual = (int) time() % 24;]]></Action>
 				<Event>
 					<Id>1760221276726</Id>
 					<Name><![CDATA[eventAtaque]]></Name>
-					<X>170</X><Y>1260</Y>
+					<X>170</X><Y>1430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1669,7 +1928,7 @@ horaActual = (int) time() % 24;]]></Action>
 					</Properties>
 					<Action><![CDATA[double hora = (int) time() % 24;
 boolean enPico = (hora >= horaInicioPico) || (hora <= horaFinPico);
-double probActual = enPico ? 0.0403 : 0.00284;
+double probActual = enPico ? tasaPico : tasaNoPico;
 
 if (uniform(0,1) < probActual) {
     if (!shipses.isEmpty()) {
@@ -1677,8 +1936,42 @@ if (uniform(0,1) < probActual) {
         victima.accidentar();
         trace("Accidente con " + victima + " a la hora " + hora + "\n");
         contadorAccidentes++;
+        // Prueba para determinar la categoria
+        detCategoria();
     }
 }]]></Action>
+				</Event>
+				<Event>
+					<Id>1760309680463</Id>
+					<Name><![CDATA[setTasaPico]]></Name>
+					<X>60</X><Y>1530</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="timeout" Mode="occuresOnce">
+						<Timeout Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</Timeout>
+						<Rate Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
+						</Rate>
+						<Id>1760309680461</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1760342400000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+					</Properties>
+					<Action><![CDATA[tasaPico = k * tasaNoPico;]]></Action>
 				</Event>
 			</Events>
 			<Functions>
@@ -1687,18 +1980,12 @@ if (uniform(0,1) < probActual) {
 					<ReturnType><![CDATA[int]]></ReturnType>
 					<Id>1759950853089</Id>
 					<Name><![CDATA[detCategoria]]></Name>
-					<X>170</X><Y>1030</Y>
+					<X>170</X><Y>1060</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Body><![CDATA[double probFracaso = 1 - (1 - modDefensa) * Math.pow((1 - modPatrulla), cantPatrullas);
-
-double pFallido = 0.025; 
-double pCAT2 = 0.0875;
-double pCAT3 = 0.475;
-double pCAT4 = 0.4125;
-
 double pFallidoReal = Math.min(pFallido + probFracaso, 1.0);
 
 double resto = 1 - pFallidoReal;
@@ -1711,12 +1998,16 @@ pCAT4 *= factor;
 double r = uniform(0, 1);
 
 if (r < pFallidoReal) {
+	trace("Evento fallido \n");
     return 0; // 0 = Fallido
 } else if (r < pFallidoReal + pCAT2) {
+	trace("Evento de categoria 2 \n");
     return 2; // CAT2
 } else if (r < pFallidoReal + pCAT2 + pCAT3) {
+    trace("Evento de categoria 3 \n");
     return 3; // CAT3
 } else {
+	trace("Evento de categoria 4 \n");
     return 4; // CAT4
 }]]></Body>
 				</Function>
@@ -1726,7 +2017,7 @@ if (r < pFallidoReal) {
 					<Id>1759950859933</Id>
 					<Name><![CDATA[f_probAtaque]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>170</X><Y>1150</Y>
+					<X>170</X><Y>1320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1792,7 +2083,7 @@ return probActual;]]></Body>
 				<EmbeddedObject>
 					<Id>1754949749478</Id>
 					<Name><![CDATA[shipses]]></Name>
-					<X>60</X><Y>700</Y>
+					<X>60</X><Y>690</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1841,7 +2132,7 @@ return probActual;]]></Body>
 				<EmbeddedObject>
 					<Id>1754951483508</Id>
 					<Name><![CDATA[sourceLane1]]></Name>
-					<X>435</X><Y>680</Y>
+					<X>615</X><Y>720</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2092,7 +2383,7 @@ return probActual;]]></Body>
 				<EmbeddedObject>
 					<Id>1754951514334</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>840</X><Y>680</Y>
+					<X>1020</X><Y>720</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2144,7 +2435,7 @@ return probActual;]]></Body>
 				<EmbeddedObject>
 					<Id>1754951816635</Id>
 					<Name><![CDATA[inTransit]]></Name>
-					<X>680</X><Y>670</Y>
+					<X>860</X><Y>710</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2286,7 +2577,7 @@ return probActual;]]></Body>
 				<EmbeddedObject>
 					<Id>1755024626139</Id>
 					<Name><![CDATA[sourceLane2]]></Name>
-					<X>435</X><Y>1040</Y>
+					<X>615</X><Y>1080</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2537,7 +2828,7 @@ return probActual;]]></Body>
 				<EmbeddedObject>
 					<Id>1755024626200</Id>
 					<Name><![CDATA[sink1]]></Name>
-					<X>840</X><Y>1040</Y>
+					<X>1020</X><Y>1080</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2589,7 +2880,7 @@ return probActual;]]></Body>
 				<EmbeddedObject>
 					<Id>1755024626207</Id>
 					<Name><![CDATA[moveTo1]]></Name>
-					<X>680</X><Y>1030</Y>
+					<X>860</X><Y>1070</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2732,7 +3023,7 @@ return probActual;]]></Body>
 					<Id>1755024715419</Id>
 					<Name><![CDATA[sourceLane3]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>50</X><Y>1510</Y>
+					<X>60</X><Y>1690</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2982,7 +3273,7 @@ destinations.remove(currentSource);
 					<Id>1755024715480</Id>
 					<Name><![CDATA[sink2]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>230</X><Y>1510</Y>
+					<X>240</X><Y>1690</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3035,7 +3326,7 @@ destinations.remove(currentSource);
 					<Id>1755024715487</Id>
 					<Name><![CDATA[moveTo2]]></Name>
 					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>130</X><Y>1500</Y>
+					<X>140</X><Y>1680</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3179,7 +3470,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755093098761</Id>
 					<Name><![CDATA[selectOutput]]></Name>
-					<X>510</X><Y>680</Y>
+					<X>690</X><Y>720</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3252,7 +3543,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755093104927</Id>
 					<Name><![CDATA[selectOutput1]]></Name>
-					<X>510</X><Y>1040</Y>
+					<X>690</X><Y>1080</Y>
 					<Label><X>-25</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3325,7 +3616,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755093137245</Id>
 					<Name><![CDATA[moveToMalacca]]></Name>
-					<X>680</X><Y>920</Y>
+					<X>860</X><Y>960</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3470,7 +3761,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755372683951</Id>
 					<Name><![CDATA[stopsInPort]]></Name>
-					<X>520</X><Y>730</Y>
+					<X>700</X><Y>770</Y>
 					<Label><X>15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3585,7 +3876,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755373224666</Id>
 					<Name><![CDATA[moveToSingapore]]></Name>
-					<X>680</X><Y>720</Y>
+					<X>860</X><Y>760</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3730,7 +4021,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755373344784</Id>
 					<Name><![CDATA[moveToKlang]]></Name>
-					<X>680</X><Y>770</Y>
+					<X>860</X><Y>810</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3875,7 +4166,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755373352148</Id>
 					<Name><![CDATA[moveToTanjung]]></Name>
-					<X>680</X><Y>820</Y>
+					<X>860</X><Y>860</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4020,7 +4311,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755373417101</Id>
 					<Name><![CDATA[moveToDumai]]></Name>
-					<X>680</X><Y>870</Y>
+					<X>860</X><Y>910</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4165,7 +4456,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755374520422</Id>
 					<Name><![CDATA[moveToMalacca1]]></Name>
-					<X>680</X><Y>1280</Y>
+					<X>860</X><Y>1320</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4310,7 +4601,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755374520458</Id>
 					<Name><![CDATA[stopsInPort1]]></Name>
-					<X>520</X><Y>1090</Y>
+					<X>700</X><Y>1130</Y>
 					<Label><X>15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4425,7 +4716,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755374520481</Id>
 					<Name><![CDATA[moveToSingapore1]]></Name>
-					<X>680</X><Y>1080</Y>
+					<X>860</X><Y>1120</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4570,7 +4861,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755374520517</Id>
 					<Name><![CDATA[moveToKlang1]]></Name>
-					<X>680</X><Y>1130</Y>
+					<X>860</X><Y>1170</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4715,7 +5006,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755374520553</Id>
 					<Name><![CDATA[moveToTanjung1]]></Name>
-					<X>680</X><Y>1180</Y>
+					<X>860</X><Y>1220</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4860,7 +5151,7 @@ destinations.add(currentSource);]]></Code>
 				<EmbeddedObject>
 					<Id>1755374520589</Id>
 					<Name><![CDATA[moveToDumai1]]></Name>
-					<X>680</X><Y>1230</Y>
+					<X>860</X><Y>1270</Y>
 					<Label><X>-10</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5126,9 +5417,9 @@ destinations.add(currentSource);]]></Code>
 							<Bounds><LonMin>-180.0</LonMin><LatMin>-56.869410700999936</LatMin><LonMax>180.0</LonMax><LatMax>71.68715967600008</LatMax></Bounds>
 						</GISShapeFile>
 					</GISShapes>
-					<Latitude>2.442580232092987</Latitude>
-					<Longitude>103.20493758331334</Longitude>
-					<Scale>2000000</Scale>
+					<Latitude>1.9471416490772995</Latitude>
+					<Longitude>102.75406776842465</Longitude>
+					<Scale>1700000</Scale>
 					<BorderColor>-4144960</BorderColor>
 					<FillColor>-1</FillColor>
 					<ShowTiles>true</ShowTiles>
@@ -6705,10 +6996,118 @@ destinations.add(currentSource);]]></Code>
 					<Z>0</Z>
 					<Rotation>0.0</Rotation>
 					<Color>-16777216</Color>
-					<Text><![CDATA[Esto no esta aplicado todavia]]></Text>
+					<Text><![CDATA[Esto no esta aplicado todavia,
+solo se llama en el evento de ataque
+pero solo para probar]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1760309968978</Id>
+					<Name><![CDATA[text1]]></Name>
+					<X>50</X><Y>730</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Probabilidades de ir a cada puerto y contadores asociados]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1760310088759</Id>
+					<Name><![CDATA[text2]]></Name>
+					<X>50</X><Y>960</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Valores usados para determinar la categoria del evento]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1760310353747</Id>
+					<Name><![CDATA[text3]]></Name>
+					<X>110</X><Y>1110</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Esta es la categoria mas grave, 
+en los datos recopilados no ocurrio nunca]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>10</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1760311039138</Id>
+					<Name><![CDATA[text4]]></Name>
+					<X>50</X><Y>1250</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Valores usados para determinar cuando ocurre un evento y que barco es afectado]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
+						<Style>0</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+				<Text>
+					<Id>1760311118917</Id>
+					<Name><![CDATA[text5]]></Name>
+					<X>600</X><Y>650</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-16777216</Color>
+					<Text><![CDATA[Comportamiento de los barcos para cada ruta]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>14</Size>
 						<Style>0</Style>
 					</Font>
 					<Alignment>LEFT</Alignment>
@@ -9458,7 +9857,7 @@ _ps140.setFillColor(lime);]]></EntryAction>
 	<Frame>
 		<Id>1754585141638</Id>
 		<Width>1000</Width>
-		<Height>600</Height>
+		<Height>620</Height>
 	</Frame>
 	<Database>
 		<Id>1754585141637</Id>
@@ -9597,6 +9996,36 @@ _ps140.setFillColor(lime);]]></EntryAction>
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[horaFinPico]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[fraccionPico]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[horasPico]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[horasNoPico]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[k]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[tasaNoPico]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[pFallido]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[pCAT2]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[pCAT3]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[pCAT4]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[pCAT1]]></ParameterName>
 				</Parameter>
 			</Parameters>
 			<PresentationProperties>
