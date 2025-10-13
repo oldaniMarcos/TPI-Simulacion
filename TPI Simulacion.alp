@@ -7782,10 +7782,11 @@ main.demoraAcumulada += delay;]]></EntryAction>
 					<ShowLabel>true</ShowLabel>
 					<Properties Width="150" Height="30">
 						<EntryAction><![CDATA[_ps140.setFillColor(gold);
+
 // Restaura la velocidad para que se dirija al puerto
 this.setSpeed(30, KPH);
 
-trace(this + " se esta moviendo a un puerto cercano \n");
+//trace(this + " se esta moviendo a un puerto cercano \n");
 
 double dSingapore = this.getDistanceGIS(
 	this.getLatitude(), 
@@ -7821,23 +7822,48 @@ double dMalacca = this.getDistanceGIS(
 	main.gisPointMalacca.getLatitude(), 
 	main.gisPointMalacca.getLongitude()
 	);
-	
 
-	
-double minDistance = Collections.min(Arrays.asList(
-	dSingapore,
-	dKlang,
-	dTanjung,
-	dDumai,
-	dMalacca
-));
+// Crea un HashMap para vincular cada distancia con su punto
+Map<Double, GISPoint> destinos = new HashMap<>();
+destinos.put(dSingapore, main.gisPointSingapore);
+destinos.put(dKlang, main.gisPointKlang);
+destinos.put(dTanjung, main.gisPointTanjungPelepas);
+destinos.put(dDumai, main.gisPointDumai);
+destinos.put(dMalacca, main.gisPointMalacca);
 
-trace(dSingapore + " " + dKlang + " " + dTanjung + " " + dDumai + " " + dMalacca + "\n");
-trace(minDistance + "\n");
+double minDistance = Collections.min(destinos.keySet());
+GISPoint destinoMasCercano = destinos.get(minDistance);
 
-main.pauseSimulation();]]></EntryAction>
+trace("Destino más cercano: " + destinoMasCercano.getName() + 
+      " (distancia: " + minDistance + ")\n");
+      
+//trace(destinos + "\n");
+
+// Mover el barco
+this.moveTo(destinoMasCercano.getLatitude(), destinoMasCercano.getLongitude());
+
+//main.pauseSimulation();
+
+
+]]></EntryAction>
+						<ExitAction><![CDATA[// Sigue el trayecto original
+
+this.moveTo(destinationNode.getLatitude(),
+	 destinationNode.getLongitude());]]></ExitAction>
 						<FillColor>-10496</FillColor>
 					</Properties>
+				</StatechartElement>
+				<StatechartElement Class="FinalState" ParentState="ROOT_NODE">
+					<Id>1760390125800</Id>
+					<Name><![CDATA[finalState1]]></Name>
+					<X>420</X><Y>600</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Properties>	
+						<Action><![CDATA[this.deleteSelf();]]></Action>
+					</Properties>	
 				</StatechartElement>
 				<StatechartElement Class="EntryPoint" ParentState="ROOT_NODE">
 					<Id>1754949764582</Id>
@@ -7974,36 +8000,6 @@ main.pauseSimulation();]]></EntryAction>
 						<DefaultTransition>true</DefaultTransition>
 						<FilterType><![CDATA[equalsTo]]></FilterType>
 						<EqualsExpression><![CDATA["Accidente"]]></EqualsExpression>
-						<SatisfiesExpression><![CDATA[true]]></SatisfiesExpression>
-					</Properties>	
-				</StatechartElement>
-				<StatechartElement Class="Transition" ParentState="ROOT_NODE">
-					<Id>1755092119938</Id>
-					<Name><![CDATA[transition4]]></Name>
-					<X>420</X><Y>420</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>100</Y></Point>
-					</Points>
-					<IconOffset>20.0</IconOffset>
-					<Properties Source="1760382674038" Target="1755092117401" Trigger="timeout">
-						<Timeout Class="CodeUnitValue">
-							<Code><![CDATA[delay]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
-						</Timeout>
-						<Condition><![CDATA[true]]></Condition>
-						<Rate Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
-						</Rate>
-						<MessageType><![CDATA[Object]]></MessageType>
-						<DefaultTransition>true</DefaultTransition>
-						<FilterType><![CDATA[unconditionally]]></FilterType>
-						<EqualsExpression><![CDATA["text"]]></EqualsExpression>
 						<SatisfiesExpression><![CDATA[true]]></SatisfiesExpression>
 					</Properties>	
 				</StatechartElement>
@@ -8321,6 +8317,36 @@ main.pauseSimulation();]]></EntryAction>
 					</Points>
 					<IconOffset>20.0</IconOffset>
 					<Properties Source="1760366615978" Target="1760382674038" Trigger="condition">
+						<Timeout Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
+						</Timeout>
+						<Condition><![CDATA[true]]></Condition>
+						<Rate Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
+						</Rate>
+						<MessageType><![CDATA[Object]]></MessageType>
+						<DefaultTransition>true</DefaultTransition>
+						<FilterType><![CDATA[unconditionally]]></FilterType>
+						<EqualsExpression><![CDATA["text"]]></EqualsExpression>
+						<SatisfiesExpression><![CDATA[true]]></SatisfiesExpression>
+					</Properties>	
+				</StatechartElement>
+				<StatechartElement Class="Transition" ParentState="ROOT_NODE">
+					<Id>1760390128352</Id>
+					<Name><![CDATA[transition4]]></Name>
+					<X>420</X><Y>550</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>0</X><Y>42</Y></Point>
+					</Points>
+					<IconOffset>20.0</IconOffset>
+					<Properties Source="1755092117401" Target="1760390125800" Trigger="arrival">
 						<Timeout Class="CodeUnitValue">
 							<Code><![CDATA[1]]></Code>
 							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
