@@ -7616,6 +7616,22 @@ import oracle.jdbc.driver.parser.util.Array;]]></Import>
 						<Type><![CDATA[GISPoint]]></Type>        
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1760445353634</Id>
+					<Name><![CDATA[accidentTime]]></Name>
+					<Description><![CDATA[Variable usada para medir el tiempo que tarda un barco en llegar al puerto en caso de acccidente cat 1 o 2. En horas]]></Description>
+					<X>160</X><Y>90</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 			</Variables>
 			<StatechartElements>
 				<StatechartElement Class="State" ParentState="ROOT_NODE">
@@ -7708,6 +7724,7 @@ _ps140.setFillColor(lime);
 //trace("El barco " + this + " ha terminado su demora de " + delay + "\n");
 
 // Acumular demora total
+//trace(delay);
 main.demoraAcumulada += delay;]]></EntryAction>
 						<FillColor>-16711936</FillColor>
 					</Properties>
@@ -7783,6 +7800,8 @@ main.demoraAcumulada += delay;]]></EntryAction>
 					<Properties Width="150" Height="30">
 						<EntryAction><![CDATA[_ps140.setFillColor(gold);
 
+accidentTime = getBlockEnterTime();
+
 // Restaura la velocidad para que se dirija al puerto
 this.setSpeed(30, KPH);
 
@@ -7849,7 +7868,14 @@ this.moveTo(destinoMasCercano.getLatitude(), destinoMasCercano.getLongitude());
 						<ExitAction><![CDATA[// Sigue el trayecto original
 
 this.moveTo(destinationNode.getLatitude(),
-	 destinationNode.getLongitude());]]></ExitAction>
+	 destinationNode.getLongitude());
+	 
+double exitTime = time();
+main.demoraAcumulada += (exitTime - accidentTime);
+//trace(exitTime + "\n");
+//trace(exitTime - accidentTime + "\n");
+
+//main.pauseSimulation();]]></ExitAction>
 						<FillColor>-10496</FillColor>
 					</Properties>
 				</StatechartElement>
