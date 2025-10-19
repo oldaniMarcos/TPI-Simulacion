@@ -2059,7 +2059,7 @@ return probActual;]]></Body>
     			<HistogramData>
 					<Id>1760722611202</Id>
 					<Name><![CDATA[horasHistogram]]></Name>
-					<X>1060</X><Y>-20</Y>
+					<X>1260</X><Y>-20</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -5196,15 +5196,14 @@ agent.destinationNode = gisPointBatuAmpar;]]></Code>
 				<GISMap>
 					<Id>1754585183202</Id>
 					<Name><![CDATA[map]]></Name>
-					<X>2</X><Y>-2</Y>
+					<X>0</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Lock>true</Lock>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>1000</Width>
+					<Width>1058</Width>
 					<Height>600</Height>
 					<GISShapes>
 						<GISShapeFile>
@@ -7029,7 +7028,7 @@ Los contadores por ahora no tienen proposito en el tp]]></Text>
 				<Rectangle>
 					<Id>1760363968430</Id>
 					<Name><![CDATA[rectangle]]></Name>
-					<X>780</X><Y>0</Y>
+					<X>840</X><Y>0</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7051,7 +7050,7 @@ Los contadores por ahora no tienen proposito en el tp]]></Text>
 				<Text>
 					<Id>1760363869737</Id>
 					<Name><![CDATA[text6]]></Name>
-					<X>990</X><Y>5</Y>
+					<X>1050</X><Y>5</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7094,7 +7093,7 @@ Los contadores por ahora no tienen proposito en el tp]]></Text>
 				<Rectangle>
 					<Id>1760380090441</Id>
 					<Name><![CDATA[rectangle1]]></Name>
-					<X>580</X><Y>40</Y>
+					<X>640</X><Y>40</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7116,7 +7115,7 @@ Los contadores por ahora no tienen proposito en el tp]]></Text>
 				<Text>
 					<Id>1760380090444</Id>
 					<Name><![CDATA[text9]]></Name>
-					<X>990</X><Y>45</Y>
+					<X>1050</X><Y>45</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7138,7 +7137,7 @@ Los contadores por ahora no tienen proposito en el tp]]></Text>
     			<Histogram>
 					<Id>1760722592041</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>1440</X><Y>0</Y>
+					<X>1640</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7205,7 +7204,7 @@ Los contadores por ahora no tienen proposito en el tp]]></Text>
     			<BarChart>
 					<Id>1760723075707</Id>
 					<Name><![CDATA[chart1]]></Name>
-					<X>1000</X><Y>0</Y>
+					<X>1200</X><Y>0</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7291,7 +7290,7 @@ Los contadores por ahora no tienen proposito en el tp]]></Text>
     			<BarChart>
 					<Id>1760723523818</Id>
 					<Name><![CDATA[chart2]]></Name>
-					<X>1000</X><Y>308.72</Y>
+					<X>1200</X><Y>308.72</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10963,12 +10962,14 @@ statechart.fireEvent(cat);]]></Body>
 histogram1_data.reset();
 histogram2_data.reset();
 histogram3_data.reset();
-histogram4_data.reset();]]></BeforeEachExperimentRunCode>
+histogram4_data.reset();
+histogram5_data.reset();]]></BeforeEachExperimentRunCode>
 			<AfterSimulationRunCode><![CDATA[histogram0_data.add( root.demoraAcumulada );
 histogram1_data.add( root.counterFailed );
 histogram2_data.add( root.counterCAT1 );
 histogram3_data.add( root.counterCAT2 );
-histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
+histogram4_data.add( root.counterCAT3 );
+histogram5_data.add( root.counterCAT4 );]]></AfterSimulationRunCode>
 			<SeedValue>1</SeedValue>
 			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
 			<VmArgs><![CDATA[]]></VmArgs>
@@ -11068,7 +11069,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 					<NumberOfIntervals>100</NumberOfIntervals>
 					<MinMaxAutodetect>false</MinMaxAutodetect>
 					<RangeMinExpression><![CDATA[0]]></RangeMinExpression>
-					<RangeMaxExpression><![CDATA[50]]></RangeMaxExpression>
+					<RangeMaxExpression><![CDATA[25]]></RangeMaxExpression>
 					<InitialIntervalSize><![CDATA[100]]></InitialIntervalSize>
 					<CalculateCDF>true</CalculateCDF>
 					<CalculatePercentiles>false</CalculatePercentiles>
@@ -11136,7 +11137,41 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 					<NumberOfIntervals>100</NumberOfIntervals>
 					<MinMaxAutodetect>false</MinMaxAutodetect>
 					<RangeMinExpression><![CDATA[0]]></RangeMinExpression>
-					<RangeMaxExpression><![CDATA[50]]></RangeMaxExpression>
+					<RangeMaxExpression><![CDATA[200]]></RangeMaxExpression>
+					<InitialIntervalSize><![CDATA[100]]></InitialIntervalSize>
+					<CalculateCDF>true</CalculateCDF>
+					<CalculatePercentiles>false</CalculatePercentiles>
+					<LowPercent>10</LowPercent>
+					<HighPercent>10</HighPercent>
+					<Title><![CDATA[]]></Title>
+				</HistogramData>
+    			<HistogramData>
+					<Id>1760915350639</Id>
+					<Name><![CDATA[histogram5_data]]></Name>
+					<X>-360</X><Y>320</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>false</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>false</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1760915350637</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1760774400000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<Value><![CDATA[]]></Value>
+					<NumberOfIntervals>100</NumberOfIntervals>
+					<MinMaxAutodetect>false</MinMaxAutodetect>
+					<RangeMinExpression><![CDATA[0]]></RangeMinExpression>
+					<RangeMaxExpression><![CDATA[200]]></RangeMaxExpression>
 					<InitialIntervalSize><![CDATA[100]]></InitialIntervalSize>
 					<CalculateCDF>true</CalculateCDF>
 					<CalculatePercentiles>false</CalculatePercentiles>
@@ -11171,7 +11206,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760734947677</Id>
 					<Name><![CDATA[text1]]></Name>
-					<X>20</X><Y>60</Y>
+					<X>20</X><Y>40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11192,7 +11227,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760734947678</Id>
 					<Name><![CDATA[text2]]></Name>
-					<X>210</X><Y>60</Y>
+					<X>210</X><Y>40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11214,7 +11249,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760734947679</Id>
 					<Name><![CDATA[text3]]></Name>
-					<X>20</X><Y>90</Y>
+					<X>20</X><Y>70</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11235,7 +11270,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Line>
 					<Id>1760734947680</Id>
 					<Name><![CDATA[line]]></Name>
-					<X>10</X><Y>110</Y>
+					<X>10</X><Y>90</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11410,7 +11445,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Rectangle>
 					<Id>1760734947688</Id>
 					<Name><![CDATA[rectangle1]]></Name>
-					<X>10</X><Y>110</Y>
+					<X>10</X><Y>90</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11432,7 +11467,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760734947689</Id>
 					<Name><![CDATA[text10]]></Name>
-					<X>20</X><Y>120</Y>
+					<X>20</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11453,7 +11488,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760734947690</Id>
 					<Name><![CDATA[text11]]></Name>
-					<X>210</X><Y>120</Y>
+					<X>210</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11475,7 +11510,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760734947691</Id>
 					<Name><![CDATA[text12]]></Name>
-					<X>20</X><Y>150</Y>
+					<X>20</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11496,7 +11531,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760734947692</Id>
 					<Name><![CDATA[text13]]></Name>
-					<X>210</X><Y>150</Y>
+					<X>210</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11518,7 +11553,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Rectangle>
 					<Id>1760734947693</Id>
 					<Name><![CDATA[rectangle2]]></Name>
-					<X>10</X><Y>170</Y>
+					<X>10</X><Y>150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11540,7 +11575,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760734947694</Id>
 					<Name><![CDATA[text14]]></Name>
-					<X>20</X><Y>180</Y>
+					<X>20</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11561,7 +11596,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760734947695</Id>
 					<Name><![CDATA[text15]]></Name>
-					<X>210</X><Y>180</Y>
+					<X>210</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12362,7 +12397,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
     			<Histogram>
 					<Id>1760886193227</Id>
 					<Name><![CDATA[histogram1]]></Name>
-					<X>0</X><Y>420</Y>
+					<X>20</X><Y>220</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12417,7 +12452,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 					<HistogramDataExpression>
 					<Id>1760886193224</Id>
 					<Expression><![CDATA[histogram1_data]]></Expression>
-						<ColorPDF>-16776961</ColorPDF>
+						<ColorPDF>-9005675</ColorPDF>
 						<ColorCDF>-16777216</ColorCDF>
 						<ColorLowPercent>-16777088</ColorLowPercent>
 						<ColorHighPercent>-16711681</ColorHighPercent>
@@ -12429,7 +12464,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
     			<Histogram>
 					<Id>1760886194532</Id>
 					<Name><![CDATA[histogram2]]></Name>
-					<X>300</X><Y>420</Y>
+					<X>20</X><Y>420</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12484,7 +12519,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 					<HistogramDataExpression>
 					<Id>1760886194529</Id>
 					<Expression><![CDATA[histogram2_data]]></Expression>
-						<ColorPDF>-16776961</ColorPDF>
+						<ColorPDF>-1698726</ColorPDF>
 						<ColorCDF>-16777216</ColorCDF>
 						<ColorLowPercent>-16777088</ColorLowPercent>
 						<ColorHighPercent>-16711681</ColorHighPercent>
@@ -12496,7 +12531,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
     			<Histogram>
 					<Id>1760886194988</Id>
 					<Name><![CDATA[histogram3]]></Name>
-					<X>600</X><Y>420</Y>
+					<X>320</X><Y>420</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12551,7 +12586,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 					<HistogramDataExpression>
 					<Id>1760886194985</Id>
 					<Expression><![CDATA[histogram3_data]]></Expression>
-						<ColorPDF>-16776961</ColorPDF>
+						<ColorPDF>-356071</ColorPDF>
 						<ColorCDF>-16777216</ColorCDF>
 						<ColorLowPercent>-16777088</ColorLowPercent>
 						<ColorHighPercent>-16711681</ColorHighPercent>
@@ -12563,7 +12598,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
     			<Histogram>
 					<Id>1760886195486</Id>
 					<Name><![CDATA[histogram4]]></Name>
-					<X>900</X><Y>420</Y>
+					<X>620</X><Y>420</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12618,7 +12653,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 					<HistogramDataExpression>
 					<Id>1760886195483</Id>
 					<Expression><![CDATA[histogram4_data]]></Expression>
-						<ColorPDF>-16776961</ColorPDF>
+						<ColorPDF>-16670520</ColorPDF>
 						<ColorCDF>-16777216</ColorCDF>
 						<ColorLowPercent>-16777088</ColorLowPercent>
 						<ColorHighPercent>-16711681</ColorHighPercent>
@@ -12630,7 +12665,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760886745120</Id>
 					<Name><![CDATA[text43]]></Name>
-					<X>30</X><Y>400</Y>
+					<X>50</X><Y>200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12651,7 +12686,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760886776049</Id>
 					<Name><![CDATA[text44]]></Name>
-					<X>330</X><Y>400</Y>
+					<X>50</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12672,7 +12707,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760886780146</Id>
 					<Name><![CDATA[text45]]></Name>
-					<X>630</X><Y>400</Y>
+					<X>350</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12693,7 +12728,7 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 				<Text>
 					<Id>1760886787103</Id>
 					<Name><![CDATA[text46]]></Name>
-					<X>930</X><Y>400</Y>
+					<X>650</X><Y>400</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12704,6 +12739,94 @@ histogram4_data.add( root.counterCAT3 );]]></AfterSimulationRunCode>
 					<Rotation>0.0</Rotation>
 					<Color>-12566464</Color>
 					<Text><![CDATA[Total CAT3]]></Text>
+					<Font>
+						<Name>SansSerif</Name>
+						<Size>20</Size>
+						<Style>1</Style>
+					</Font>
+					<Alignment>LEFT</Alignment>
+				</Text>
+    			<Histogram>
+					<Id>1760915482620</Id>
+					<Name><![CDATA[histogram5]]></Name>
+					<X>920</X><Y>420</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>false</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1760915482618</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1760774400000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>300</Width>
+					<Height>200</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>30</XOffset>
+						<YOffset>20</YOffset>
+						<Width>210</Width>
+						<Height>120</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-9868951</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>false</ShowLegend>
+					<ShowPDF>true</ShowPDF>
+					<ShowCDF>false</ShowCDF>
+					<ShowMean>false</ShowMean>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+					<HistogramDataExpression>
+					<Id>1760915482617</Id>
+					<Expression><![CDATA[histogram5_data]]></Expression>
+						<ColorPDF>-10502571</ColorPDF>
+						<ColorCDF>-16777216</ColorCDF>
+						<ColorLowPercent>-16777088</ColorLowPercent>
+						<ColorHighPercent>-16711681</ColorHighPercent>
+						<ColorMean>-7650029</ColorMean>
+						<LineWidth>1</LineWidth>						
+						<Title><![CDATA[Total Delay]]></Title>							
+					</HistogramDataExpression>
+    			</Histogram>
+				<Text>
+					<Id>1760915516881</Id>
+					<Name><![CDATA[text47]]></Name>
+					<X>960</X><Y>400</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>
+					<Color>-12566464</Color>
+					<Text><![CDATA[Total CAT4]]></Text>
 					<Font>
 						<Name>SansSerif</Name>
 						<Size>20</Size>
