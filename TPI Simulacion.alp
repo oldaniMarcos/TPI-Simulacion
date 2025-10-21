@@ -133,7 +133,7 @@
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[double]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[triangular(37.5, 50, 43.75)]]></Code>
+							<Code><![CDATA[65]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
